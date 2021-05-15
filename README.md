@@ -11,9 +11,11 @@ Legend: 🎥 Video | ⚠️ No HTTPS | 🏫 .edu TLD
 Try searching by #tags - for example _#beginner_, _#linux_ or _#intel_
 
 
-## 💻 Environment
+## 💻 Environment & Tools
 
 Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. I would like to get together a good environment on both Windows and Linux and will document / link here once I do.
+
+[GodBolt Compiler Explorer](https://godbolt.org/) - See the output from various compilers; useful for seeing the resulting ASM and evaluating the difference between different implementations.
 
 
 ## 📚 Tutorials / Series
@@ -31,13 +33,20 @@ Let's Learn x86-64 Assembly! (2020)
 🏫 [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
 <sup>_#edu_ _#nasm_ _#tutorial_ _#x86-64_ _#linux_ _#macos_ _#windows_ _#beginner-friendly_</sup>
 
-⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/) (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial)) ([Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources))
+⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/), on (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial)) and a great page of ([Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources))
 <sup>_#intermediate_ _#nasm_ _#linux_ _#windows_</sup>
 
 Writing a Bootloader (2017)
- - ⚠️ [Part 1](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/) or [HTTPS via Outline.com](https://outline.com/dUzXfC) 
- - ⚠️ [Part 2](http://3zanders.co.uk/2017/10/16/writing-a-bootloader2/) or [HTTPS via Outline.com](https://outline.com/Nm3SLj) 
- - ⚠️ [Part 3](http://3zanders.co.uk/2017/10/18/writing-a-bootloader3/) or [HTTPS via Outline.com](https://outline.com/dMwprw)
+<sup>_#beginner-friendly_ _#nasm_ _#qemu_</sup>
+ - ⚠️ [Part 1](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/) or 🔒 [HTTPS via Outline.com](https://outline.com/dUzXfC) 
+ - ⚠️ [Part 2](http://3zanders.co.uk/2017/10/16/writing-a-bootloader2/) or 🔒 [HTTPS via Outline.com](https://outline.com/Nm3SLj) 
+ - ⚠️ [Part 3](http://3zanders.co.uk/2017/10/18/writing-a-bootloader3/) or 🔒 [HTTPS via Outline.com](https://outline.com/dMwprw)
+
+[x86 assembly doesn’t have to be scary (2018)](https://blog.benjojo.co.uk/post/interactive-x86-bootloader-tutorial)
+<sup>_#introductory_</sup>
+
+[How to Read Assembly Language (2021)](https://wolchok.org/posts/how-to-read-assembly-language/) and [How to Read ARM64 Assembly Language (2021)](https://wolchok.org/posts/how-to-read-arm64-assembly-language/)
+<sup>_#article_ _#introductory_ _#intel_ _#arm64_</sup>
 
 [RIP Tutorial - Getting started with Assembly Language](https://riptutorial.com/assembly)
 
@@ -45,6 +54,8 @@ Writing a Bootloader (2017)
 ## 🎥 Videos
 
 🎥 [Series - Modern x64 Assembly](https://youtu.be/rxsBghsrvpI)
+
+🎥 [HelloWorld in x86 and x64 Assembly Language (2021)](https://youtu.be/-uLA5mVAU00)
 
 
 ## 🚀 Downloads
@@ -59,10 +70,21 @@ Writing a Bootloader (2017)
 💲 [Introduction to 64 Bit Assembly Language Programming for Linux and OS X](http://rayseyfarth.com/asm/)
 <sup>#_5-usd_ #_beginner-friendly_ #_linux_ #_yasm_ #_gdb_</sup>
 
+🏫 [Writing a Simple Operating System - from Scratch](https://github.com/rsouth/asm-reading-list/blob/main/os-dev.pdf) or [Mirror](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf) and [many, many more](https://www.cs.bham.ac.uk/~exr/lectures/opsys/) by suffixing /lectures to the academic year (e.g. /opsys/10_11/lectures)
+<sup>_#nasm_ _#intel_ _#pdf-downloads_ _#lectures_</sup>
 
-## ⚡ Tools
+[Software optimization resources](https://agner.org/optimize/)
+<sup>_#advanced_ #_pdf-downloads_ #_2021_ #_C++_</sup>
 
-[GodBolt Compiler Explorer](https://godbolt.org/) - See the output from various compilers; useful for seeing the resulting ASM and evaluating the difference between different implementations.
+💲 [Reverse Engineering for Beginners / Understanding Assembly Language](https://beginners.re/)
+<sup>_#donation_ _#pdf-download_</sup>
+
+
+## 📝 Notes / 💬 Discussions
+
+[X64 Linux Assembly Environment Setup](https://epi052.gitlab.io/notes-to-self/blog/2018-07-22-x64-linux-assembly-environment-setup/)
+
+[Ask HN: What's the best resource for learning modern x64 assembly?](https://news.ycombinator.com/item?id=22279051)
 
 
 ## 🦀 Rust + ASM
@@ -80,46 +102,22 @@ Writing a Bootloader (2017)
 [asm - The Rust Unstable Book](https://doc.rust-lang.org/unstable-book/library-features/asm.html)
 
 
-## 📝 Notes / 💬 Discussions
-
-[X64 Linux Assembly Environment Setup](https://epi052.gitlab.io/notes-to-self/blog/2018-07-22-x64-linux-assembly-environment-setup/)
-
-[Ask HN: What's the best resource for learning modern x64 assembly?](https://news.ycombinator.com/item?id=22279051)
-
-
 ## 🧹 Dumping Ground
+
+> Uncategorised; here for when I have time to organise later!
 
 [Guide to writing X86-64 Assembly](https://tonycodes.com/assembly)
 <sup>_#macos_</sup>
 
-[Software optimization resources](https://agner.org/optimize/)
-<sup>_#advanced_ #_pdf-downloads_ #_2021_ #_C++_</sup>
+[Reference - Sandpile - The world's leading source for technical x86 processor information.](https://sandpile.org/)
 
-💲 [Reverse Engineering for Beginners / Understanding Assembly Language](https://beginners.re/)
-<sup>_#donation_ _#pdf-download_</sup>
+[Why no one should use the AT&T syntax ever, for any reason, under any circumstances (2021)](https://elronnd.net/writ/2021-02-13_att-asm.html)
+<sup>_#at&t_</sup>
 
 [ELF: From The Programmer's Perspective (1995)](http://beefchunk.com/documentation/sys-programming/binary_formats/elf/elf_from_the_programmers_perspective/elf.html)
 <sup>_#linux_</sup>
 
 [Under the Hood (1998)](http://bytepointer.com/resources/pietrek_asm_pt1.htm)
-
-[Reference - Sandpile - The world's leading source for technical x86 processor information.](https://sandpile.org/)
-
-[x86 assembly doesn’t have to be scary (2018)](https://blog.benjojo.co.uk/post/interactive-x86-bootloader-tutorial)
-<sup>_#introductory_</sup>
-
-🎥 [HelloWorld in x86 and x64 Assembly Language (2021)](https://youtu.be/-uLA5mVAU00)
-
-[How to Read Assembly Language (2021)](https://wolchok.org/posts/how-to-read-assembly-language/) and it's ARM64 companion 
-[How to Read ARM64 Assembly Language (2021)](https://wolchok.org/posts/how-to-read-arm64-assembly-language/)
-<sup>_#article_ _#introductory_ _#intel_ _#arm64_</sup>
-
-http://csapp.cs.cmu.edu/
-
-[Why no one should use the AT&T syntax ever, for any reason, under any circumstances (2021)](https://elronnd.net/writ/2021-02-13_att-asm.html)
-<sup>_#at&t_</sup>
-
-https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf
 
 
 ---
