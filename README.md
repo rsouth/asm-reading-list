@@ -53,6 +53,9 @@ Writing a Bootloader (2017)
 
 📄 [What Every Programmer Should Know About Memory - Ulrich Drepper (Nov 2007)](https://github.com/rsouth/asm-reading-list/blob/main/cpumemory.pdf)
 
+[Programming from the Group Up - Jonathan Bartlett (2004)](https://github.com/rsouth/asm-reading-list/blob/main/ProgrammingGroundUp-1-0-booksize.pdf) or [Mirror](https://download-mirror.savannah.gnu.org/releases/pgubook/)
+<sup>_#beginner-friendly_ _#x86_ _#linux_ _#gcc_ _#at&t_</sup>
+
 
 ## ⚡ Tools
 
@@ -121,8 +124,6 @@ http://csapp.cs.cmu.edu/
 
 https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf
 
-[Programming from the Group Up](https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf)
-<sup>_#beginner-friendly_ _#x86_ _#linux_ _#gcc_ _#at&t_</sup>
 
 ---
 
