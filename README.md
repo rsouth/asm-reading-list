@@ -21,7 +21,7 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 [TutorialsPoint - NASM](https://www.tutorialspoint.com/assembly_programming/assembly_basic_syntax.htm)
 <sup>_#beginner-friendly_ _#tutorial_ _#nasm_ _#linux_ _#intel_</sup>
 
-[gpfault - Let's Learn x86-64 Assembly!](https://gpfault.net/posts/asm-tut-0.txt.html) (2020)
+Let's Learn x86-64 Assembly! (2020)
 <sup>_#beginner-friendly_ _#windows_ _#fasm_ _#x86-64_ _#series_ _#tutorial_</sup>
  - [0 - Setup and First Steps](https://gpfault.net/posts/asm-tut-0.txt.html)
  - [1 - Metaprogramming in Flat Assembler](https://gpfault.net/posts/asm-tut-1.txt.html)
@@ -33,6 +33,11 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 
 ⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/) (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial) ([Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources)
 <sup>_#intermediate_ _#nasm_ _#linux_ _#windows_</sup>
+
+Writing a Bootloader (2017)
+ - ⚠️ [Part 1](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/) [HTTPS via Outline.com](https://outline.com/dUzXfC) 
+ - ⚠️ [Part 2](http://3zanders.co.uk/2017/10/16/writing-a-bootloader2/) [HTTPS via Outline.com](https://outline.com/Nm3SLj) 
+ - ⚠️ [Part 3](http://3zanders.co.uk/2017/10/18/writing-a-bootloader3/) [HTTPS via Outline.com](https://outline.com/dMwprw)
 
 [RIP Tutorial - Getting started with Assembly Language](https://riptutorial.com/assembly)
 
@@ -106,12 +111,12 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 🎥 [HelloWorld in x86 and x64 Assembly Language (2021)](https://youtu.be/-uLA5mVAU00)
 
 [How to Read Assembly Language (2021)](https://wolchok.org/posts/how-to-read-assembly-language/) and it's ARM64 companion 
-[How to Read ARM64 Assembly Language](https://wolchok.org/posts/how-to-read-arm64-assembly-language/)
+[How to Read ARM64 Assembly Language (2021)](https://wolchok.org/posts/how-to-read-arm64-assembly-language/)
 <sup>_#article_ _#introductory_ _#intel_ _#arm64_</sup>
 
 http://csapp.cs.cmu.edu/
 
-[Why no one should use the AT&T syntax ever, for any reason, under any circumstances (2021-02-13)](https://elronnd.net/writ/2021-02-13_att-asm.html)
+[Why no one should use the AT&T syntax ever, for any reason, under any circumstances (2021)](https://elronnd.net/writ/2021-02-13_att-asm.html)
 <sup>_#at&t_</sup>
 
 https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf
