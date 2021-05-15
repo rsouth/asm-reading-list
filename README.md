@@ -56,6 +56,9 @@ Writing a Bootloader (2017)
 [Programming from the Group Up - Jonathan Bartlett (2004)](https://github.com/rsouth/asm-reading-list/blob/main/ProgrammingGroundUp-1-0-booksize.pdf) or [Mirror](https://download-mirror.savannah.gnu.org/releases/pgubook/)
 <sup>_#beginner-friendly_ _#x86_ _#linux_ _#gcc_ _#at&t_</sup>
 
+💲 [Introduction to 64 Bit Assembly Language Programming for Linux and OS X](http://rayseyfarth.com/asm/)
+<sup>#_5-usd_ #_beginner-friendly_ #_linux_ #_yasm_ #_gdb_</sup>
+
 
 ## ⚡ Tools
 
@@ -82,12 +85,6 @@ Writing a Bootloader (2017)
 [X64 Linux Assembly Environment Setup](https://epi052.gitlab.io/notes-to-self/blog/2018-07-22-x64-linux-assembly-environment-setup/)
 
 [Ask HN: What's the best resource for learning modern x64 assembly?](https://news.ycombinator.com/item?id=22279051)
-
-
-## 📚 Books
-
-💲 [Introduction to 64 Bit Assembly Language Programming for Linux and OS X](http://rayseyfarth.com/asm/)
-<sup>#_5-usd_ #_beginner-friendly_ #_linux_ #_yasm_ #_gdb_</sup>
 
 
 ## 🧹 Dumping Ground
