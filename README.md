@@ -6,7 +6,7 @@ Also see my [Rust Reading List](https://github.com/rsouth/rust-reading-list/blob
 
 > I'm learning ASM primarily to better understand the output of my Rust and C++ programs. This repo is a link-dump, hopefully will evolve in to a useful resource for others learning ASM in 2021 for similar reasons!
 
-🎥 Video | ⚠️ No HTTPS | 🏫 .edu TLD
+Legend: 🎥 Video | ⚠️ No HTTPS | 🏫 .edu TLD
 
 Try searching by #tags - for example _#beginner_, _#linux_ or _#intel_
 
