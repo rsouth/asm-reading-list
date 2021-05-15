@@ -81,13 +81,13 @@ Writing a Bootloader (2017)
 [Ask HN: What's the best resource for learning modern x64 assembly?](https://news.ycombinator.com/item?id=22279051)
 
 
-## Books
+## 📚 Books
 
 💲 [Introduction to 64 Bit Assembly Language Programming for Linux and OS X](http://rayseyfarth.com/asm/)
 <sup>#_5-usd_ #_beginner-friendly_ #_linux_ #_yasm_ #_gdb_</sup>
 
 
-## Dumping Ground
+## 🧹 Dumping Ground
 
 [Guide to writing X86-64 Assembly](https://tonycodes.com/assembly)
 <sup>_#macos_</sup>
