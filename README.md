@@ -82,27 +82,19 @@ Assembly Language For Real
 https://hackaday.com/2020/08/25/assembly-language-for-real/
 
 
-Rust + ASM
+## 🦀 Rust + ASM
 
-Read Rust - Read Rust collects and categorises interesting posts related to the Rust programming language. This page lists posts tagged with 'asm'.
-https://readrust.net/tags/asm
+[Read Rust - ASM Tag](https://readrust.net/tags/asm)
 
-r/rust - How to see the assembly code for rust code getting compiled.
-https://www.reddit.com/r/rust/comments/9i5df2/how_to_see_the_assembly_code_for_rust_code/
+[r/rust - How to see the assembly code for rust code getting compiled](https://www.reddit.com/r/rust/comments/9i5df2/how_to_see_the_assembly_code_for_rust_code/)
 
-gnzlbg/cargo-asm
-cargo subcommand showing the assembly or llvm-ir generated for Rust code - gnzlbg/cargo-asm
-https://github.com/gnzlbg/cargo-asm
+:octocat: [gnzlbg/cargo-asm - cargo subcommand showing the assembly or llvm-ir generated for Rust code](https://github.com/gnzlbg/cargo-asm)
 
-jeremydavis519/rusty-asm
-A layer of syntactic sugar between Rust and inline assembly - jeremydavis519/rusty-asm
-https://github.com/jeremydavis519/rusty-asm
+:octocat: [jeremydavis519/rusty-asm - A layer of syntactic sugar between Rust and inline assembly](https://github.com/jeremydavis519/rusty-asm)
 
-Interacting with assembly in Rust - LogRocket Blog
-https://blog.logrocket.com/interacting-with-assembly-in-rust/
+[Interacting with assembly in Rust](https://blog.logrocket.com/interacting-with-assembly-in-rust/)
 
-asm - The Rust Unstable Book
-https://doc.rust-lang.org/unstable-book/library-features/asm.html
+[asm - The Rust Unstable Book](https://doc.rust-lang.org/unstable-book/library-features/asm.html)
 
 
 
