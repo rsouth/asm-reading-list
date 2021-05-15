@@ -17,8 +17,14 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 ## 📚 Tutorials / Series
 
 [TutorialsPoint - NASM](https://www.tutorialspoint.com/assembly_programming/assembly_basic_syntax.htm)
+<sup>_#beginner_ _#tutorial_ _#nasm_ _#linux_ _#intel_</sup>
 
-[Let's Learn x86-64 Assembly!](https://gpfault.net/posts/asm-tut-0.txt.html)
+[gpfault - Let's Learn x86-64 Assembly!](https://gpfault.net/posts/asm-tut-0.txt.html) (2020)
+ - [0 - Setup and First Steps](https://gpfault.net/posts/asm-tut-0.txt.html)
+ - [1 - Metaprogramming in Flat Assembler](https://gpfault.net/posts/asm-tut-1.txt.html)
+ - [2 - We're Writing a Virtual Machine](https://gpfault.net/posts/asm-tut-2.txt.html)
+ - [3 - Arithmetic and Logic](https://gpfault.net/posts/asm-tut-3.txt.html)
+_#windows_ _#fasm_ _#x86-64_ _#series_ _#tutorial_
 
 ⚠️ 🏫 [Assembly Language from a Modern Point of View](http://heather.cs.ucdavis.edu/~matloff/assembbook.html) | [HTTPS via Outline.com](https://outline.com/2uWDR9)
 
