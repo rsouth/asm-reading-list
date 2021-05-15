@@ -31,7 +31,7 @@ Let's Learn x86-64 Assembly! (2020)
 🏫 [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
 <sup>_#edu_ _#nasm_ _#tutorial_ _#x86-64_ _#linux_ _#macos_ _#windows_ _#beginner-friendly_</sup>
 
-⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/) (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial) ([Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources)
+⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/) (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial)) ([Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources))
 <sup>_#intermediate_ _#nasm_ _#linux_ _#windows_</sup>
 
 Writing a Bootloader (2017)
