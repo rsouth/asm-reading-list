@@ -50,38 +50,6 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 [GodBolt Compiler Explorer](https://godbolt.org/) - See the output from various compilers; useful for seeing the resulting ASM and evaluating the difference between different implementations.
 
 
-## 📝 Notes
-
-[X64 Linux Assembly Environment Setup](https://epi052.gitlab.io/notes-to-self/blog/2018-07-22-x64-linux-assembly-environment-setup/)
-
----
-
-
-Ask HN: What's the best resource for learning modern x64 assembly?
-https://news.ycombinator.com/item?id=22279051
-
-http://rayseyfarth.com/asm/
-
-https://opensecuritytraining.info/IntroX86-64.html
-
-https://tonycodes.com/assembly
-
-https://agner.org/optimize/
-
-https://beginners.re/
-
-https://csapp.cs.cmu.edu/
-
-ELF: From The Programmer's Perspective
-http://beefchunk.com/documentation/sys-programming/binary_formats/elf/elf_from_the_programmers_perspective/elf.html
-
-http://bytepointer.com/resources/pietrek_asm_pt1.htm
-https://sandpile.org/
-
-Assembly Language For Real
-https://hackaday.com/2020/08/25/assembly-language-for-real/
-
-
 ## 🦀 Rust + ASM
 
 [Read Rust - ASM Tag](https://readrust.net/tags/asm)
@@ -95,6 +63,36 @@ https://hackaday.com/2020/08/25/assembly-language-for-real/
 [Interacting with assembly in Rust](https://blog.logrocket.com/interacting-with-assembly-in-rust/)
 
 [asm - The Rust Unstable Book](https://doc.rust-lang.org/unstable-book/library-features/asm.html)
+
+
+## 📝 Notes / 💬 Discussions
+
+[X64 Linux Assembly Environment Setup](https://epi052.gitlab.io/notes-to-self/blog/2018-07-22-x64-linux-assembly-environment-setup/)
+
+[Ask HN: What's the best resource for learning modern x64 assembly?](https://news.ycombinator.com/item?id=22279051)
+
+
+## Dumping Ground
+
+http://rayseyfarth.com/asm/
+
+https://opensecuritytraining.info/IntroX86-64.html
+
+https://tonycodes.com/assembly
+
+https://agner.org/optimize/
+
+https://beginners.re/
+
+https://csapp.cs.cmu.edu/
+
+[ELF: From The Programmer's Perspective](http://beefchunk.com/documentation/sys-programming/binary_formats/elf/elf_from_the_programmers_perspective/elf.html)
+
+http://bytepointer.com/resources/pietrek_asm_pt1.htm
+
+https://sandpile.org/
+
+[Assembly Language For Real](https://hackaday.com/2020/08/25/assembly-language-for-real/)
 
 
 
