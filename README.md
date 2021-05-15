@@ -35,9 +35,9 @@ Let's Learn x86-64 Assembly! (2020)
 <sup>_#intermediate_ _#nasm_ _#linux_ _#windows_</sup>
 
 Writing a Bootloader (2017)
- - ⚠️ [Part 1](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/) [HTTPS via Outline.com](https://outline.com/dUzXfC) 
- - ⚠️ [Part 2](http://3zanders.co.uk/2017/10/16/writing-a-bootloader2/) [HTTPS via Outline.com](https://outline.com/Nm3SLj) 
- - ⚠️ [Part 3](http://3zanders.co.uk/2017/10/18/writing-a-bootloader3/) [HTTPS via Outline.com](https://outline.com/dMwprw)
+ - ⚠️ [Part 1](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/) or [HTTPS via Outline.com](https://outline.com/dUzXfC) 
+ - ⚠️ [Part 2](http://3zanders.co.uk/2017/10/16/writing-a-bootloader2/) or [HTTPS via Outline.com](https://outline.com/Nm3SLj) 
+ - ⚠️ [Part 3](http://3zanders.co.uk/2017/10/18/writing-a-bootloader3/) or [HTTPS via Outline.com](https://outline.com/dMwprw)
 
 [RIP Tutorial - Getting started with Assembly Language](https://riptutorial.com/assembly)
 
