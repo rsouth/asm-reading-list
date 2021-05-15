@@ -90,6 +90,20 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 
 [Assembly Language For Real](https://hackaday.com/2020/08/25/assembly-language-for-real/)
 
+🎥 [HelloWorld in x86 and x64 Assembly Language (2021)](https://youtu.be/-uLA5mVAU00)
+
+[How to Read ARM64 Assembly Language](https://wolchok.org/posts/how-to-read-arm64-assembly-language/) - ARM64 is common in mobile phones, as well as Graviton-based Amazon EC2 instances, the Raspberry Pi 3 and 4, and the much ballyhooed Apple M1 chips, so knowing about it might be useful!
+
+https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf
+
+http://csapp.cs.cmu.edu/
+
+[How to Read Assembly Language](https://wolchok.org/posts/how-to-read-assembly-language/)
+Why, in 2021, does anyone need to learn about assembly language? First, reading assembly language is the way to know exactly what your program is doing. Why, exactly, is that C++ program 1 MiB (say) instead of 100 KiB?
+
+https://elronnd.net/writ/2021-02-13_att-asm.html
+
+https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf
 
 
 ---
