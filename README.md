@@ -8,6 +8,8 @@ Also see my [Rust Reading List](https://github.com/rsouth/rust-reading-list/blob
 
 🎥 Video | ⚠️ No HTTPS | 🏫 .edu TLD
 
+Try searching by #tags - for example _#beginner_, _#linux_ or _#intel_
+
 
 ## 💻 Environment
 
@@ -17,24 +19,22 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 ## 📚 Tutorials / Series
 
 [TutorialsPoint - NASM](https://www.tutorialspoint.com/assembly_programming/assembly_basic_syntax.htm)
-<sup>_#beginner_ _#tutorial_ _#nasm_ _#linux_ _#intel_</sup>
+<sup>_#beginner-friendly_ _#tutorial_ _#nasm_ _#linux_ _#intel_</sup>
 
 [gpfault - Let's Learn x86-64 Assembly!](https://gpfault.net/posts/asm-tut-0.txt.html) (2020)
+<sup>_#beginner-friendly_ _#windows_ _#fasm_ _#x86-64_ _#series_ _#tutorial_</sup>
  - [0 - Setup and First Steps](https://gpfault.net/posts/asm-tut-0.txt.html)
  - [1 - Metaprogramming in Flat Assembler](https://gpfault.net/posts/asm-tut-1.txt.html)
  - [2 - We're Writing a Virtual Machine](https://gpfault.net/posts/asm-tut-2.txt.html)
  - [3 - Arithmetic and Logic](https://gpfault.net/posts/asm-tut-3.txt.html)
-_#windows_ _#fasm_ _#x86-64_ _#series_ _#tutorial_
-
-⚠️ 🏫 [Assembly Language from a Modern Point of View](http://heather.cs.ucdavis.edu/~matloff/assembbook.html) | [HTTPS via Outline.com](https://outline.com/2uWDR9)
 
 🏫 [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
-
-🏫 (RasPi) [Baking Pi – Operating Systems Development](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/)
+<sup>_#edu_ _#nasm_ _#tutorial_ _#x86-64_ _#linux_ _#macos_ _#windows_ _#beginner-friendly_</sup>
 
 [RIP Tutorial - Getting started with Assembly Language](https://riptutorial.com/assembly)
 
-[Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/) (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial)
+⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/) (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial) ([Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources)
+<sup>_#intermediate_ _#nasm_ _#linux_ _#windows_</sup>
 
 
 ## 🎥 Videos
