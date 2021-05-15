@@ -7,12 +7,12 @@ I'm learning ASM primarily to better understand the output of my Rust and C++ pr
 🎥 Video | ⚠️ No HTTPS | 🏫 .edu TLD
 
 
-## Environment
+## 💻 Environment
 
 Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. I would like to get together a good environment on both Windows and Linux and will document / link here when I do
 
 
-## Tutorials / Series
+## 📚 Tutorials / Series
 
 [TutorialsPoint - NASM](https://www.tutorialspoint.com/assembly_programming/assembly_basic_syntax.htm)
 
@@ -29,17 +29,24 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/) (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial)
 
 
-## Videos
+## 🎥 Videos
 
 🎥 [Series - Modern x64 Assembly](https://youtu.be/rxsBghsrvpI)
 
 
-## Tools
+## 🚀 Downloads
+
+📄 [x84-x64 Assembly Language Programming with Ubuntu - Ed Jorgensen, Ph.D. (Version 1.1.40, Jan 2020)](https://github.com/rsouth/asm-reading-list/blob/main/assembly64.pdf)
+
+📄 [What Every Programmer Should Know About Memory - Ulrich Drepper (Nov 2007)](https://github.com/rsouth/asm-reading-list/blob/main/cpumemory.pdf)
+
+
+## ⚡ Tools
 
 [GodBolt Compiler Explorer](https://godbolt.org/) - See the output from various compilers; useful for seeing the resulting ASM and evaluating the difference between different implementations.
 
 
-## Notes
+## 📝 Notes
 
 [X64 Linux Assembly Environment Setup](https://epi052.gitlab.io/notes-to-self/blog/2018-07-22-x64-linux-assembly-environment-setup/)
 
