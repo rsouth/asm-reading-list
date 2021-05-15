@@ -56,6 +56,58 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 
 ---
 
+
+Ask HN: What's the best resource for learning modern x64 assembly?
+https://news.ycombinator.com/item?id=22279051
+
+http://rayseyfarth.com/asm/
+
+https://opensecuritytraining.info/IntroX86-64.html
+
+https://tonycodes.com/assembly
+
+https://agner.org/optimize/
+
+https://beginners.re/
+
+https://csapp.cs.cmu.edu/
+
+ELF: From The Programmer's Perspective
+http://beefchunk.com/documentation/sys-programming/binary_formats/elf/elf_from_the_programmers_perspective/elf.html
+
+http://bytepointer.com/resources/pietrek_asm_pt1.htm
+https://sandpile.org/
+
+Assembly Language For Real
+https://hackaday.com/2020/08/25/assembly-language-for-real/
+
+
+Rust + ASM
+
+Read Rust - Read Rust collects and categorises interesting posts related to the Rust programming language. This page lists posts tagged with 'asm'.
+https://readrust.net/tags/asm
+
+r/rust - How to see the assembly code for rust code getting compiled.
+https://www.reddit.com/r/rust/comments/9i5df2/how_to_see_the_assembly_code_for_rust_code/
+
+gnzlbg/cargo-asm
+cargo subcommand showing the assembly or llvm-ir generated for Rust code - gnzlbg/cargo-asm
+https://github.com/gnzlbg/cargo-asm
+
+jeremydavis519/rusty-asm
+A layer of syntactic sugar between Rust and inline assembly - jeremydavis519/rusty-asm
+https://github.com/jeremydavis519/rusty-asm
+
+Interacting with assembly in Rust - LogRocket Blog
+https://blog.logrocket.com/interacting-with-assembly-in-rust/
+
+asm - The Rust Unstable Book
+https://doc.rust-lang.org/unstable-book/library-features/asm.html
+
+
+
+---
+
 Hello World
 ```asm
 ; hello_world.asm
