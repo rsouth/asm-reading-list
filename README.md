@@ -121,8 +121,8 @@ http://csapp.cs.cmu.edu/
 
 https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf
 
-https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf
-
+[Programming from the Group Up](https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf)
+<sup>_#beginner-friendly_ _#x86_ _#linux_ _#gcc_ _#at&t_</sup>
 
 ---
 
