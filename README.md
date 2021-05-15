@@ -4,16 +4,14 @@
 
 Also see my [Rust Reading List](https://github.com/rsouth/rust-reading-list/blob/main/README.md)
 
-I'm learning ASM primarily to better understand the output of my Rust and C++ programs. This repo is a link-dump, hopefully will evolve in to a useful resource for others learning ASM in 2021 for similar reasons!
-
----
+> I'm learning ASM primarily to better understand the output of my Rust and C++ programs. This repo is a link-dump, hopefully will evolve in to a useful resource for others learning ASM in 2021 for similar reasons!
 
 🎥 Video | ⚠️ No HTTPS | 🏫 .edu TLD
 
 
 ## 💻 Environment
 
-Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. I would like to get together a good environment on both Windows and Linux and will document / link here when I do
+Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. I would like to get together a good environment on both Windows and Linux and will document / link here once I do.
 
 
 ## 📚 Tutorials / Series
@@ -74,23 +72,21 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 
 ## Dumping Ground
 
-http://rayseyfarth.com/asm/
+[Introduction to 64 Bit Assembly Language Programming for Linux and OS X](http://rayseyfarth.com/asm/)
 
-https://opensecuritytraining.info/IntroX86-64.html
+[Introductory Intel x86-64: Architecture, Assembly, Applications, & Alliteration](https://opensecuritytraining.info/IntroX86-64.html)
 
-https://tonycodes.com/assembly
+[Guide to writing X86-64 Assembly](https://tonycodes.com/assembly)
 
-https://agner.org/optimize/
+[Software optimization resources](https://agner.org/optimize/)
 
-https://beginners.re/
-
-https://csapp.cs.cmu.edu/
+[Reverse Engineering for Beginners / Understanding Assembly Language](https://beginners.re/) (PDF Download on this page)
 
 [ELF: From The Programmer's Perspective](http://beefchunk.com/documentation/sys-programming/binary_formats/elf/elf_from_the_programmers_perspective/elf.html)
 
-http://bytepointer.com/resources/pietrek_asm_pt1.htm
+[Under the Hood (1998)](http://bytepointer.com/resources/pietrek_asm_pt1.htm)
 
-https://sandpile.org/
+[Reference - Sandpile - The world's leading source for technical x86 processor information.](https://sandpile.org/)
 
 [Assembly Language For Real](https://hackaday.com/2020/08/25/assembly-language-for-real/)
 
