@@ -31,10 +31,10 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 🏫 [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
 <sup>_#edu_ _#nasm_ _#tutorial_ _#x86-64_ _#linux_ _#macos_ _#windows_ _#beginner-friendly_</sup>
 
-[RIP Tutorial - Getting started with Assembly Language](https://riptutorial.com/assembly)
-
 ⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/) (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial) ([Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources)
 <sup>_#intermediate_ _#nasm_ _#linux_ _#windows_</sup>
+
+[RIP Tutorial - Getting started with Assembly Language](https://riptutorial.com/assembly)
 
 
 ## 🎥 Videos
@@ -76,40 +76,47 @@ Currently coding on Ubuntu in VIM and hitting NASM/YASM + ld from the terminal. 
 [Ask HN: What's the best resource for learning modern x64 assembly?](https://news.ycombinator.com/item?id=22279051)
 
 
+## Books
+
+💲 [Introduction to 64 Bit Assembly Language Programming for Linux and OS X](http://rayseyfarth.com/asm/)
+<sup>#_5-usd_ #_beginner-friendly_ #_linux_ #_yasm_ #_gdb_</sup>
+
+
 ## Dumping Ground
 
-[Introduction to 64 Bit Assembly Language Programming for Linux and OS X](http://rayseyfarth.com/asm/)
-
-[Introductory Intel x86-64: Architecture, Assembly, Applications, & Alliteration](https://opensecuritytraining.info/IntroX86-64.html)
-
 [Guide to writing X86-64 Assembly](https://tonycodes.com/assembly)
+<sup>_#macos_</sup>
 
 [Software optimization resources](https://agner.org/optimize/)
+<sup>_#advanced_ #_pdf-downloads_ #_2021_ #_C++_</sup>
 
-[Reverse Engineering for Beginners / Understanding Assembly Language](https://beginners.re/) (PDF Download on this page)
+💲 [Reverse Engineering for Beginners / Understanding Assembly Language](https://beginners.re/)
+<sup>_#donation_ _#pdf-download_</sup>
 
-[ELF: From The Programmer's Perspective](http://beefchunk.com/documentation/sys-programming/binary_formats/elf/elf_from_the_programmers_perspective/elf.html)
+[ELF: From The Programmer's Perspective (1995)](http://beefchunk.com/documentation/sys-programming/binary_formats/elf/elf_from_the_programmers_perspective/elf.html)
+<sup>_#linux_</sup>
 
 [Under the Hood (1998)](http://bytepointer.com/resources/pietrek_asm_pt1.htm)
 
 [Reference - Sandpile - The world's leading source for technical x86 processor information.](https://sandpile.org/)
 
-[Assembly Language For Real](https://hackaday.com/2020/08/25/assembly-language-for-real/)
+[x86 assembly doesn’t have to be scary (2018)](https://blog.benjojo.co.uk/post/interactive-x86-bootloader-tutorial)
+<sup>_#introductory_</sup>
 
 🎥 [HelloWorld in x86 and x64 Assembly Language (2021)](https://youtu.be/-uLA5mVAU00)
 
-[How to Read ARM64 Assembly Language](https://wolchok.org/posts/how-to-read-arm64-assembly-language/) - ARM64 is common in mobile phones, as well as Graviton-based Amazon EC2 instances, the Raspberry Pi 3 and 4, and the much ballyhooed Apple M1 chips, so knowing about it might be useful!
-
-https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf
+[How to Read Assembly Language (2021)](https://wolchok.org/posts/how-to-read-assembly-language/) and it's ARM64 companion 
+[How to Read ARM64 Assembly Language](https://wolchok.org/posts/how-to-read-arm64-assembly-language/)
+<sup>_#article_ _#introductory_ _#intel_ _#arm64_</sup>
 
 http://csapp.cs.cmu.edu/
 
-[How to Read Assembly Language](https://wolchok.org/posts/how-to-read-assembly-language/)
-Why, in 2021, does anyone need to learn about assembly language? First, reading assembly language is the way to know exactly what your program is doing. Why, exactly, is that C++ program 1 MiB (say) instead of 100 KiB?
-
-https://elronnd.net/writ/2021-02-13_att-asm.html
+[Why no one should use the AT&T syntax ever, for any reason, under any circumstances (2021-02-13)](https://elronnd.net/writ/2021-02-13_att-asm.html)
+<sup>_#at&t_</sup>
 
 https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf
+
+https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf
 
 
 ---
