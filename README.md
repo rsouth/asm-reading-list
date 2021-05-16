@@ -143,6 +143,14 @@ https://slideplayer.com/slide/9659147/
 https://www.cs.princeton.edu/courses/archive/spr20/cos217/lectures/
 https://www.cs.princeton.edu/courses/archive/spr11/cos217/lectures/15AssemblyFunctions.pdf
 
+https://speakerdeck.com/olvemaudal/test-driven-development-in-assembler
+
+https://blog.code-cop.org/2015/08/how-to-unit-test-assembly.html
+
+https://github.com/briansteffens/asmtest
+
+https://asmtutor.com/ && https://github.com/DGivney/assemblytutorials
+
 ---
 
 Hello World
