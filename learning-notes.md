@@ -12,8 +12,7 @@ I'm writing this as I learn, as a quick-reference page for myself. That means no
 > Things that I need to look up frequently...
 
 ## Registers
-
-(Adapted from: https://www.eecg.utoronto.ca/~amza/www.mindsec.com/files/x86regs.html)
+(Ref: [1](https://www.aldeid.com/wiki/X86-assembly/Registers), [2](https://www.eecg.utoronto.ca/~amza/www.mindsec.com/files/x86regs.html))
 
 ```
 32 bits :  EAX     EBX     ECX     EDX
@@ -21,13 +20,37 @@ I'm writing this as I learn, as a quick-reference page for myself. That means no
  8 bits :   AH  AL  BH  BL  CH  CL  DH DL
 ```
 
+Think **E** = Extended and **X** = Register.
+
 `A` Accumulator register: It is used for I/O port access, arithmetic, interrupt calls, etc...
+    EAX generally contains the return of a function. If you see the EAX register just after a function call, chances are that EAX contains the return value of the function.
+    EAX and EDX are always implied in multiplication and division instructions
+    EAX can also be used as a temporary CPU memory for additions:
 
 `B` Base register: It is used as a base pointer for memory access; gets some interrupt return values.
 
 `C` Counter register: It is used as a loop counter and for shifts; gets some interrupt values.
 
 `D` Data register: It is used for I/O port access, arithmetic, some interrupt calls.
+
+Honorary mention for `[E]SP` - \[Extended\] Stack Pointer; points to last item in the stack.
+
+
+## Status Register / Flags
+ Ref: https://en.wikipedia.org/wiki/FLAGS_register
+ https://www.aldeid.com/wiki/X86-assembly/Registers#Status_register
+ 
+Commonly Used:
+ 
+### PF (Parity Flag)
+The parity flag (PF) indicates if the number of set bits is even or odd in the binary representation of the low 8 bits of the result of the last operation.
+
+### ZF (Zero Flag)
+The Zero Flag (ZF) is set (1) when the result of an operation is zero. Otherwise, it is cleared (0).
+
+### SF (Sign Flag)
+The Sign Flag (SF) is set (1) when the result of an operation is negative. Otherwise (positive result), it is cleared (0). 
+ 
 
 ## Syscalls
 
@@ -68,3 +91,16 @@ fd | stream
 0  | stdin
 1  | stdout
 2  | stderr
+
+
+## Jumps
+
+[(no HTTPS)](http://unixwiz.net/techtips/x86-jumps.html) and [HTTPS Version](https://outline.com/zgfG5z)
+
+
+
+
+
+
+
+
