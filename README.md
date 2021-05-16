@@ -36,6 +36,17 @@ Let's Learn x86-64 Assembly! (2020)
 ⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/), on (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial)) and a great page of ([Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources))
 <sup>_#intermediate_ _#nasm_ _#linux_ _#windows_</sup>
 
+Say hello to x86_64 Assembly (2014)
+ - [Part 1](https://0xax.github.io/asm_1/)
+ - [Part 2](https://0xax.github.io/asm_2/)
+ - [Part 3](https://0xax.github.io/asm_3/)
+ - [Part 4](https://0xax.github.io/asm_4/)
+ - [Part 5](https://0xax.github.io/asm_5/)
+ - [Part 6](https://0xax.github.io/asm_6/)
+ - [Part 7](https://0xax.github.io/asm_7/)
+ - [Part 8](https://0xax.github.io/asm_8/)
+<sup>_#linux_ _#x86-64_</sup>
+
 Writing a Bootloader (2017)
 <sup>_#beginner-friendly_ _#nasm_ _#qemu_</sup>
  - ⚠️ [Part 1](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/) or 🔒 [HTTPS via Outline.com](https://outline.com/dUzXfC) 
@@ -119,6 +130,18 @@ Writing a Bootloader (2017)
 
 [Under the Hood (1998)](http://bytepointer.com/resources/pietrek_asm_pt1.htm)
 
+https://montcs.bloomu.edu/Information/LowLevel/Assembly/hello-asm.html
+https://flint.cs.yale.edu/cs421/papers/art-of-asm/pdf/CH09.PDF
+https://www.csee.umbc.edu/portal/help/nasm/sample_64.shtml
+
+https://en.wikibooks.org/wiki/X86_Assembly
+
+https://www.aldeid.com/wiki/Category:Architecture/x86-assembly
+
+https://slideplayer.com/slide/9659147/
+
+https://www.cs.princeton.edu/courses/archive/spr20/cos217/lectures/
+https://www.cs.princeton.edu/courses/archive/spr11/cos217/lectures/15AssemblyFunctions.pdf
 
 ---
 
