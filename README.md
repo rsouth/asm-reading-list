@@ -33,7 +33,7 @@ Let's Learn x86-64 Assembly! (2020)
 🏫 [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
 <sup>_#edu_ _#nasm_ _#tutorial_ _#x86-64_ _#linux_ _#macos_ _#windows_ _#beginner-friendly_</sup>
 
-⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/), on (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial)) and a great page of ([Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources))
+⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/), on :octocat: [GitHub](https://github.com/sonictk/asm_tutorial) and a great page of [Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources)
 <sup>_#intermediate_ _#nasm_ _#linux_ _#windows_</sup>
 
 Say hello to x86_64 Assembly (2014)
@@ -74,9 +74,9 @@ Writing a Bootloader (2017)
 
 ## 🚀 Downloads
 
-📄 [x84-x64 Assembly Language Programming with Ubuntu - Ed Jorgensen, Ph.D. (Version 1.1.40, Jan 2020)](https://github.com/rsouth/asm-reading-list/blob/main/assembly64.pdf)
+📄 [x84-x64 Assembly Language Programming with Ubuntu - Ed Jorgensen, Ph.D. (2020)](https://github.com/rsouth/asm-reading-list/blob/main/assembly64.pdf)
 
-📄 [What Every Programmer Should Know About Memory - Ulrich Drepper (Nov 2007)](https://github.com/rsouth/asm-reading-list/blob/main/cpumemory.pdf)
+📄 [What Every Programmer Should Know About Memory - Ulrich Drepper (2007)](https://github.com/rsouth/asm-reading-list/blob/main/cpumemory.pdf)
 
 [Programming from the Group Up - Jonathan Bartlett (2004)](https://github.com/rsouth/asm-reading-list/blob/main/ProgrammingGroundUp-1-0-booksize.pdf) or [Mirror](https://download-mirror.savannah.gnu.org/releases/pgubook/)
 <sup>_#beginner-friendly_ _#x86_ _#linux_ _#gcc_ _#at&t_</sup>
