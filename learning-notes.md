@@ -1,4 +1,4 @@
-# Intro
+# About
 I'm learning [NASM](https://www.nasm.us/docs.php) primarily on Linux but chosen partly because of support for both Linux and Windows. Actually using [YASM](https://yasm.tortall.net/) assembler.
 
 NASM uses Intel-style syntax, as opposed to AT&T/Gas-style (_dst src_ rather than _src dst_, no %-prefix for registers). It's not the 'default' for Linux but seems to make the most sense for me as I want to develop for both Linux and Windows, and the syntax feels more comfortable and readable.
@@ -9,7 +9,7 @@ I'm writing this as I learn, as a quick-reference page for myself. That means no
 
 # References
 
-> Things that I need to look up frequently...
+a.k.a "things that I need to look up frequently..."
 
 ## Registers
 (Ref: [1](https://www.aldeid.com/wiki/X86-assembly/Registers), [2](https://www.eecg.utoronto.ca/~amza/www.mindsec.com/files/x86regs.html))
@@ -20,7 +20,7 @@ I'm writing this as I learn, as a quick-reference page for myself. That means no
  8 bits :   AH  AL  BH  BL  CH  CL  DH DL
 ```
 
-Think **E** = Extended and **X** = Register.
+Think **E** = Extended and **X** = Register, then A, B, C and D.
 
 `A` Accumulator register: It is used for I/O port access, arithmetic, interrupt calls, etc...
  - EAX generally contains the return of a function. If you see the EAX register just after a function call, chances are that EAX contains the return value of the function.
@@ -36,28 +36,24 @@ Think **E** = Extended and **X** = Register.
 Honorary mention for `[E]SP` - \[Extended\] Stack Pointer; points to last item in the stack.
 
 
-## Status Register / Flags (FLAGS Register)
- Ref: https://en.wikipedia.org/wiki/FLAGS_register
- https://www.aldeid.com/wiki/X86-assembly/Registers#Status_register
- 
+## Status / FLAGS Register
+(Ref: [1](https://en.wikipedia.org/wiki/FLAGS_register), [2](https://www.aldeid.com/wiki/X86-assembly/Registers#Status_register))
+
 Commonly Used:
  
-### PF (Parity Flag)
+### `PF` (Parity Flag)
 The parity flag (PF) indicates if the number of set bits is even or odd in the binary representation of the low 8 bits of the result of the last operation.
 
-### ZF (Zero Flag)
+### `ZF` (Zero Flag)
 The Zero Flag (ZF) is set (1) when the result of an operation is zero. Otherwise, it is cleared (0).
 
-### SF (Sign Flag)
+### `SF` (Sign Flag)
 The Sign Flag (SF) is set (1) when the result of an operation is negative. Otherwise (positive result), it is cleared (0).
 
 > Is it very important to remember that many instructions change the bits of the FLAGS register, so you should act on flag values immediately (or save them for later use).
 
 ## Syscalls
-
-Ref: https://faculty.nps.edu/cseagle/assembly/sys_call.html
-
-Ref (x64 only): https://filippo.io/linux-syscall-table/
+(Ref: [1](https://faculty.nps.edu/cseagle/assembly/sys_call.html), [2 (x64 only)](https://filippo.io/linux-syscall-table/))
 
 eax | Name | Source | ebx | ecx | edx
 ---- | ---- | ------ | ---- | ---- | ----
@@ -80,8 +76,7 @@ eax | Name | Source | ebx | ecx | edx
 
 
 ## File Descriptors
-
-Ref: https://www.tutorialspoint.com/assembly_programming/assembly_file_management.htm
+(Ref: [1](https://www.tutorialspoint.com/assembly_programming/assembly_file_management.htm)
 
 > A file descriptor is a 16-bit integer assigned to a file as a file id. When a new file is created or an existing file is opened, the file descriptor is used for accessing the file.
 
@@ -95,9 +90,7 @@ fd | stream
 
 
 ## Jumps
-
-[(no HTTPS)](http://unixwiz.net/techtips/x86-jumps.html) and [HTTPS Version](https://outline.com/zgfG5z)
-https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm
+(Ref: [1 (no HTTPS)](http://unixwiz.net/techtips/x86-jumps.html) / [1 (HTTPS Version)](https://outline.com/zgfG5z), [2](https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm))
 
 ### Unconditional
 
@@ -130,7 +123,6 @@ JE / JZ - jump if ZF = 1
 
 JNE / JNZ - jump if ZF = 0
 
-
 > Checks the state of one or more of the status flags in the FLAGS register (CF, OF, PF, SF, and ZF) and, if the flags are in the specified state (condition), performs a jump to the target instruction specified by the destination operand. A condition code (cc) is associated with each instruction to indicate the condition being tested for. If the condition is not satisfied, the jump is not performed and execution continues with the instruction following the Jcc instruction.
 
 ```asm
@@ -160,8 +152,7 @@ Use `call` to (allow flow to) return, `jmp` and other jumps do not.
 ```
 
 ### Loops
-
-Example from https://en.wikibooks.org/wiki/X86_Assembly/Control_Flow#Loop_Instructions
+(Ref: [1](https://en.wikibooks.org/wiki/X86_Assembly/Control_Flow#Loop_Instructions))
 
 ```asm
     mov ecx, 5             ; ecx ≔ 5
