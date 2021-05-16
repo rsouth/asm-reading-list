@@ -37,6 +37,7 @@ Let's Learn x86-64 Assembly! (2020)
 <sup>_#intermediate_ _#nasm_ _#linux_ _#windows_</sup>
 
 Say hello to x86_64 Assembly (2014)
+<sup>_#linux_ _#x86-64_</sup>
  - [Part 1](https://0xax.github.io/asm_1/)
  - [Part 2](https://0xax.github.io/asm_2/)
  - [Part 3](https://0xax.github.io/asm_3/)
@@ -45,7 +46,6 @@ Say hello to x86_64 Assembly (2014)
  - [Part 6](https://0xax.github.io/asm_6/)
  - [Part 7](https://0xax.github.io/asm_7/)
  - [Part 8](https://0xax.github.io/asm_8/)
-<sup>_#linux_ _#x86-64_</sup>
 
 Writing a Bootloader (2017)
 <sup>_#beginner-friendly_ _#nasm_ _#qemu_</sup>
@@ -130,9 +130,13 @@ Writing a Bootloader (2017)
 
 [Under the Hood (1998)](http://bytepointer.com/resources/pietrek_asm_pt1.htm)
 
-https://montcs.bloomu.edu/Information/LowLevel/Assembly/hello-asm.html
-https://flint.cs.yale.edu/cs421/papers/art-of-asm/pdf/CH09.PDF
+[The Art of Assembly Language](https://flint.cs.yale.edu/cs421/papers/art-of-asm/pdf/)
+
 https://www.csee.umbc.edu/portal/help/nasm/sample_64.shtml
+intel linux x86-64 nasm gcc gdb
+
+🏫 https://www.cs.virginia.edu/~evans/cs216/guides/x86.html
+x86 intel
 
 https://en.wikibooks.org/wiki/X86_Assembly
 
@@ -143,13 +147,12 @@ https://slideplayer.com/slide/9659147/
 https://www.cs.princeton.edu/courses/archive/spr20/cos217/lectures/
 https://www.cs.princeton.edu/courses/archive/spr11/cos217/lectures/15AssemblyFunctions.pdf
 
-https://speakerdeck.com/olvemaudal/test-driven-development-in-assembler
 
-https://blog.code-cop.org/2015/08/how-to-unit-test-assembly.html
-
-https://github.com/briansteffens/asmtest
-
-https://asmtutor.com/ && https://github.com/DGivney/assemblytutorials
+Testing:
+ - https://speakerdeck.com/olvemaudal/test-driven-development-in-assembler
+ - https://blog.code-cop.org/2015/08/how-to-unit-test-assembly.html
+ - https://github.com/briansteffens/asmtest
+ - https://asmtutor.com/ && https://github.com/DGivney/assemblytutorials
 
 ---
 
