@@ -75,8 +75,8 @@ section .text
                                 ; write 'Hello World' to stdout
         mov ebx,1               ; 1 is the file descriptor for stdout
         mov eax,4               ; 4 is the syscall for sys_write
-        mov	edx,len             ; length of 'Hello World'
-        mov	ecx,msg             ; null-terminated 'Hello World'
+        mov edx,len             ; length of 'Hello World'
+        mov ecx,msg             ; null-terminated 'Hello World'
         int 0x80                ; syscall
 
                                 ; prompt for user input
