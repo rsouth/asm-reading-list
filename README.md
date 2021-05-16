@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/292208/118355849-41cc4900-b56a-11eb-9ecd-580f939fd9f1.png">
 </p>
 
-Also see my [Rust Reading List](https://github.com/rsouth/rust-reading-list/blob/main/README.md)
+Also see my [Rust Reading List](https://github.com/rsouth/rust-reading-list/blob/main/README.md) and my [ASM Learning Notes](https://github.com/rsouth/asm-reading-list/blob/main/learning-notes.md) which I'm writing as I learn; might also be useful for other beginner ASM developers.
 
 > I'm learning ASM primarily to better understand the output of my Rust and C++ programs. This repo is a link-dump, hopefully will evolve in to a useful resource for others learning ASM in 2021 for similar reasons!
 
