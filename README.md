@@ -56,6 +56,9 @@ Writing a Bootloader (2017)
 [x86 assembly doesn’t have to be scary (2018)](https://blog.benjojo.co.uk/post/interactive-x86-bootloader-tutorial)
 <sup>_#introductory_</sup>
 
+[ASM Tutor - Learn Assembly Language](https://asmtutor.com/) and on :octocat: [GitHub](https://github.com/DGivney/assemblytutorials)
+<sup>_#beginner-friendly_ _#linux_ _#nasm_ _#x86_</sup>
+
 [How to Read Assembly Language (2021)](https://wolchok.org/posts/how-to-read-assembly-language/) and [How to Read ARM64 Assembly Language (2021)](https://wolchok.org/posts/how-to-read-arm64-assembly-language/)
 <sup>_#article_ _#introductory_ _#intel_ _#arm64_</sup>
 
@@ -89,6 +92,15 @@ Writing a Bootloader (2017)
 
 💲 [Reverse Engineering for Beginners / Understanding Assembly Language](https://beginners.re/)
 <sup>_#donation_ _#pdf-download_</sup>
+
+
+## ✔️ Testing
+
+[TDD in Assembler](https://speakerdeck.com/olvemaudal/test-driven-development-in-assembler) (slides)
+
+[How to Unit Test Assembly](https://blog.code-cop.org/2015/08/how-to-unit-test-assembly.html)
+
+[GitHub - asmtest](https://github.com/briansteffens/asmtest) - A script to help with unit testing assembly code, with JSON-based configuration.
 
 
 ## 📝 Notes / 💬 Discussions
@@ -148,11 +160,7 @@ https://www.cs.princeton.edu/courses/archive/spr20/cos217/lectures/
 https://www.cs.princeton.edu/courses/archive/spr11/cos217/lectures/15AssemblyFunctions.pdf
 
 
-Testing:
- - https://speakerdeck.com/olvemaudal/test-driven-development-in-assembler
- - https://blog.code-cop.org/2015/08/how-to-unit-test-assembly.html
- - https://github.com/briansteffens/asmtest
- - https://asmtutor.com/ && https://github.com/DGivney/assemblytutorials
+
 
 ---
 
