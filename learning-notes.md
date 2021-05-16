@@ -23,9 +23,9 @@ I'm writing this as I learn, as a quick-reference page for myself. That means no
 Think **E** = Extended and **X** = Register.
 
 `A` Accumulator register: It is used for I/O port access, arithmetic, interrupt calls, etc...
-    EAX generally contains the return of a function. If you see the EAX register just after a function call, chances are that EAX contains the return value of the function.
-    EAX and EDX are always implied in multiplication and division instructions
-    EAX can also be used as a temporary CPU memory for additions:
+ - EAX generally contains the return of a function. If you see the EAX register just after a function call, chances are that EAX contains the return value of the function.
+ - EAX and EDX are always implied in multiplication and division instructions
+ - EAX can also be used as a temporary CPU memory for additions
 
 `B` Base register: It is used as a base pointer for memory access; gets some interrupt return values.
 
@@ -36,7 +36,7 @@ Think **E** = Extended and **X** = Register.
 Honorary mention for `[E]SP` - \[Extended\] Stack Pointer; points to last item in the stack.
 
 
-## Status Register / Flags
+## Status Register / Flags (FLAGS Register)
  Ref: https://en.wikipedia.org/wiki/FLAGS_register
  https://www.aldeid.com/wiki/X86-assembly/Registers#Status_register
  
@@ -49,8 +49,9 @@ The parity flag (PF) indicates if the number of set bits is even or odd in the b
 The Zero Flag (ZF) is set (1) when the result of an operation is zero. Otherwise, it is cleared (0).
 
 ### SF (Sign Flag)
-The Sign Flag (SF) is set (1) when the result of an operation is negative. Otherwise (positive result), it is cleared (0). 
- 
+The Sign Flag (SF) is set (1) when the result of an operation is negative. Otherwise (positive result), it is cleared (0).
+
+> Is it very important to remember that many instructions change the bits of the FLAGS register, so you should act on flag values immediately (or save them for later use).
 
 ## Syscalls
 
@@ -96,11 +97,77 @@ fd | stream
 ## Jumps
 
 [(no HTTPS)](http://unixwiz.net/techtips/x86-jumps.html) and [HTTPS Version](https://outline.com/zgfG5z)
+https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm
+
+### Unconditional
+
+```asm
+    jmp label    ; transfer flow, does not ret (call does)
+```
+
+### Conditional
+
+Jump to an address in the code segment (i.e., a label) based on the content of the FLAGS register.
+
+The FLAGS register is updated by:
+ - All instructions that perform arithmetic operations
+ - The `cmp` instruction, which subtracts one operand from another but doesn't store the result anywhere
+
+Use in conjunction with `cmp`. See 'status registers / flags' above.
+
+Instruction | Description | Flags tested
+----------- | ----------- | ------------
+JE / JZ | Jump Equal or Jump Zero | ZF
+JNE / JNZ | Jump not Equal / Jump Not Zero | ZF
+JG / JNLE | Jump Greater / Jump Not Less or Equal | OF, SF, ZF
+JGE / JNL | Jump Greater or Equal / Jump Not Less | OF, SF
+JL / JNGE | Jump Less / Jump Not Greater or Equal | OF, SF
+JLE / JNG | Jump Less or Equal / Jump Not Greater | OF, SF, ZF
+
+Examples:
+
+JE / JZ - jump if ZF = 1
+
+JNE / JNZ - jump if ZF = 0
 
 
+> Checks the state of one or more of the status flags in the FLAGS register (CF, OF, PF, SF, and ZF) and, if the flags are in the specified state (condition), performs a jump to the target instruction specified by the destination operand. A condition code (cc) is associated with each instruction to indicate the condition being tested for. If the condition is not satisfied, the jump is not performed and execution continues with the instruction following the Jcc instruction.
+
+```asm
+    mov eax,1              ; eax = 1
+    mov edx,1              ; edx = 1
+    add edx,eax            ; edx = eax + edx
+    cmp edx,2              ; if edx == 2
+    je good_stuff          ; jump if ZF is set
+```
 
 
+## Flow Control
 
+### `call` vs `jmp`
 
+Use `call` to (allow flow to) return, `jmp` and other jumps do not.
+
+```asm
+    _some_func:            ; (2) function executes
+        <code>
+        ret                ; (3) `pop`s the return address off the stack and
+                           ; continue execution at that address
+
+    call _some_func        ; (1) transfer flow to _some_func, and push the address
+                           ; of the next instruction (below) to the stack
+    <code>                 ; (4) execution continues here
+```
+
+### Loops
+
+Example from https://en.wikibooks.org/wiki/X86_Assembly/Control_Flow#Loop_Instructions
+
+```asm
+    mov ecx, 5 ; ecx ≔ 5
+head:
+	   ; the code here would be executed 5 times
+    loop head
+```
 
 
