@@ -33,10 +33,11 @@ Let's Learn x86-64 Assembly! (2020)
 🏫 [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
 <sup>_#edu_ _#nasm_ _#tutorial_ _#x86-64_ _#linux_ _#macos_ _#windows_ _#beginner-friendly_</sup>
 
-⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/), on (:octocat: [GitHub](https://github.com/sonictk/asm_tutorial)) and a great page of ([Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources))
+⭐ [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/), on :octocat: [GitHub](https://github.com/sonictk/asm_tutorial) and a great page of [Additional Resources](https://sonictk.github.io/asm_tutorial/#additionalresources)
 <sup>_#intermediate_ _#nasm_ _#linux_ _#windows_</sup>
 
 Say hello to x86_64 Assembly (2014)
+<sup>_#linux_ _#x86-64_</sup>
  - [Part 1](https://0xax.github.io/asm_1/)
  - [Part 2](https://0xax.github.io/asm_2/)
  - [Part 3](https://0xax.github.io/asm_3/)
@@ -45,7 +46,6 @@ Say hello to x86_64 Assembly (2014)
  - [Part 6](https://0xax.github.io/asm_6/)
  - [Part 7](https://0xax.github.io/asm_7/)
  - [Part 8](https://0xax.github.io/asm_8/)
-<sup>_#linux_ _#x86-64_</sup>
 
 Writing a Bootloader (2017)
 <sup>_#beginner-friendly_ _#nasm_ _#qemu_</sup>
@@ -55,6 +55,9 @@ Writing a Bootloader (2017)
 
 [x86 assembly doesn’t have to be scary (2018)](https://blog.benjojo.co.uk/post/interactive-x86-bootloader-tutorial)
 <sup>_#introductory_</sup>
+
+[ASM Tutor - Learn Assembly Language](https://asmtutor.com/) and on :octocat: [GitHub](https://github.com/DGivney/assemblytutorials)
+<sup>_#beginner-friendly_ _#linux_ _#nasm_ _#x86_</sup>
 
 [How to Read Assembly Language (2021)](https://wolchok.org/posts/how-to-read-assembly-language/) and [How to Read ARM64 Assembly Language (2021)](https://wolchok.org/posts/how-to-read-arm64-assembly-language/)
 <sup>_#article_ _#introductory_ _#intel_ _#arm64_</sup>
@@ -71,9 +74,9 @@ Writing a Bootloader (2017)
 
 ## 🚀 Downloads
 
-📄 [x84-x64 Assembly Language Programming with Ubuntu - Ed Jorgensen, Ph.D. (Version 1.1.40, Jan 2020)](https://github.com/rsouth/asm-reading-list/blob/main/assembly64.pdf)
+📄 [x84-x64 Assembly Language Programming with Ubuntu - Ed Jorgensen, Ph.D. (2020)](https://github.com/rsouth/asm-reading-list/blob/main/assembly64.pdf)
 
-📄 [What Every Programmer Should Know About Memory - Ulrich Drepper (Nov 2007)](https://github.com/rsouth/asm-reading-list/blob/main/cpumemory.pdf)
+📄 [What Every Programmer Should Know About Memory - Ulrich Drepper (2007)](https://github.com/rsouth/asm-reading-list/blob/main/cpumemory.pdf)
 
 [Programming from the Group Up - Jonathan Bartlett (2004)](https://github.com/rsouth/asm-reading-list/blob/main/ProgrammingGroundUp-1-0-booksize.pdf) or [Mirror](https://download-mirror.savannah.gnu.org/releases/pgubook/)
 <sup>_#beginner-friendly_ _#x86_ _#linux_ _#gcc_ _#at&t_</sup>
@@ -89,6 +92,15 @@ Writing a Bootloader (2017)
 
 💲 [Reverse Engineering for Beginners / Understanding Assembly Language](https://beginners.re/)
 <sup>_#donation_ _#pdf-download_</sup>
+
+
+## ✔️ Testing
+
+[TDD in Assembler](https://speakerdeck.com/olvemaudal/test-driven-development-in-assembler) (slides)
+
+[How to Unit Test Assembly](https://blog.code-cop.org/2015/08/how-to-unit-test-assembly.html)
+
+[GitHub - asmtest](https://github.com/briansteffens/asmtest) - A script to help with unit testing assembly code, with JSON-based configuration.
 
 
 ## 📝 Notes / 💬 Discussions
@@ -130,9 +142,13 @@ Writing a Bootloader (2017)
 
 [Under the Hood (1998)](http://bytepointer.com/resources/pietrek_asm_pt1.htm)
 
-https://montcs.bloomu.edu/Information/LowLevel/Assembly/hello-asm.html
-https://flint.cs.yale.edu/cs421/papers/art-of-asm/pdf/CH09.PDF
+[The Art of Assembly Language](https://flint.cs.yale.edu/cs421/papers/art-of-asm/pdf/)
+
 https://www.csee.umbc.edu/portal/help/nasm/sample_64.shtml
+intel linux x86-64 nasm gcc gdb
+
+🏫 https://www.cs.virginia.edu/~evans/cs216/guides/x86.html
+x86 intel
 
 https://en.wikibooks.org/wiki/X86_Assembly
 
@@ -142,6 +158,9 @@ https://slideplayer.com/slide/9659147/
 
 https://www.cs.princeton.edu/courses/archive/spr20/cos217/lectures/
 https://www.cs.princeton.edu/courses/archive/spr11/cos217/lectures/15AssemblyFunctions.pdf
+
+
+
 
 ---
 

@@ -1,4 +1,4 @@
-# Build script?
+# Build script? todo makefile: e.g. https://www.csee.umbc.edu/portal/help/nasm/Makefile_64
 
 #!/bin/sh
 
