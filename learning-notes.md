@@ -164,9 +164,9 @@ Use `call` to (allow flow to) return, `jmp` and other jumps do not.
 Example from https://en.wikibooks.org/wiki/X86_Assembly/Control_Flow#Loop_Instructions
 
 ```asm
-    mov ecx, 5 ; ecx ≔ 5
+    mov ecx, 5             ; ecx ≔ 5
 head:
-	   ; the code here would be executed 5 times
+    ; the code here would be executed 5 times
     loop head
 ```
 
